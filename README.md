@@ -49,6 +49,9 @@ This is step is optional, but will make joining the server for the first time mu
 Verify the mods show up in OvGME, they should all have a version number.  
 Click on Mods -> Enable -> All  
 
+1. Forward port 25565 on your router.
+This will allow other players to join the raids you start.
+
 ## Difference fron live EFT:
 
 ### Inventory and Items:
