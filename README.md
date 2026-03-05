@@ -14,7 +14,6 @@ Run the SPT Launcher
 Click on the settings button in the top right  
 Click the Developer Mode checkbox  
 Set the URL to ARCOMM Tarkov server URL (found in Discord)  
-Uncheck the Developer Mode checkbox  
 Close the the SPT Launcher  
 
 1. Install OvGME  
