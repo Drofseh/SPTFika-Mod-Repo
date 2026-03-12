@@ -1,59 +1,93 @@
 # ARCOMM SPTFika Mod Repo  
-
+  
 ## SPT, Fika, and Mod Installation  
 1. Install Escape from Tarkov  
-
+  
 1. Download the SPTarkov installer and install it.  
 https://wiki.sp-tarkov.com/Installation_Guide  
-
+  
 1. Download the Project Fika installer and install it.  
 https://wiki.project-fika.com/installing-fika/before-installing-fika  
-
+  
 1. Set the server in the SPT Launcher  
 Run the SPT Launcher  
 Click on the settings button in the top right  
 Click the Developer Mode checkbox  
 Set the URL to ARCOMM Tarkov server URL (found in Discord)  
 Close the the SPT Launcher  
-
+  
 1. Install OvGME  
 https://repo.arcomm.co.uk/tarkov/ovgme_1_7_4_setup_64.exe  
-
+  
 1. Create a folder for your mods  
 It doesn't matter where you make it, but I like to put it in the main SPT folder.  
 Call it something like Tarkov Mods  
-
+  
 1. Configure OvGME  
 Create a new configuration, call it something like Tarkov-Mods  
 Set the Configuration Root folder to be your main SPT folder, where the EscapeFromTarkov.exe file is.  
 Set the Configuration Mods folder to be the Tarkov Mods folder you previously made.  
 Optionally set a backup folder.  
-
+  
 1. Click on this link to download the mods  
 https://github.com/Drofseh/SPTFika-Mod-Repo/archive/refs/heads/main.zip  
-
+  
 1. Extract main.zip into your Tarkov Mods folder  
 *Do not* extract each mod zip, they should stay zipped up.  
-
+  
 1. Download this mod that's too big to fit on github  
 https://repo.arcomm.co.uk/tarkov/HollywoodFX.zip  
 Do not extract it, intead place it in the Tarkov Mods folder you previously made.  
-
+  
 1. Download the Archived Bundles  
 https://repo.arcomm.co.uk/tarkov/ArchivedBundles.zip  
 Extract it do your main SPT folder.  
 This is step is optional, but will make joining the server for the first time much much faster (because you won't need to download them from the server).  
-
+  
 1. Activate the mods  
 Verify the mods show up in OvGME, they should all have a version number.  
 Click on Mods -> Enable -> All  
-
-1. Forward port 25565 on your router.
-This will allow other players to join the raids you start.
-
-## Difference fron live EFT:
-
-### Inventory and Items:
+  
+1. Forward port 25565 on your router.  
+This will allow other players to join the raids you start.  
+  
+## Updates - SPT  
+1. Open this link  
+https://github.com/sp-tarkov/build/releases/latest  
+  
+1. Scroll down to Direct Download  
+  
+1. Click on the .7z archive link to download the update  
+The filename will be something like this:  
+`https://spt-releases.modd.in/SPT-4.0.13-40087-2891fd4.7z`  
+  
+1. Extract the archivce to your EFT SPT folder  
+Overwrite any duplicate files.  
+  
+## Updates - Fika  
+1. Run the FIKA Installer  
+  
+1. Press 1 to update  
+  
+## Updates - Mods  
+1. Open OvGME and disable all mods.  
+You may receive a warning that some files or foldesr cannot be removed.  
+This is normal and can be ignored. Some mods create config files that OvGME doesn't delete.  
+  
+1. Download updated mods from the github repo.  
+You can either download only the updated mods or the entire repo, your choice.  
+https://github.com/Drofseh/SPTFika-Mod-Repo  
+  
+1. Downloaded the updated Archived Bundles.  
+https://repo.arcomm.co.uk/tarkov/ArchivedBundles.zip  
+This is optional, as any updated bundles will automatically be downloaded from the server.  
+But it will slow down your next game startup while that happens so you may want to get them early  
+  
+1. Opem OvGME and enable all mods  
+  
+## Difference fron live EFT:  
+  
+### Inventory and Items:  
 - "Can't be dropped in raid" restrictions are removed.  
 - A lockpicking item can be used to unlock doors via a minigame.  
 - Add battlebelts that can be worn in the armband slot to provide extra inventory space.  
@@ -97,8 +131,8 @@ This will allow other players to join the raids you start.
 - When in the weapon modding UI clicking and draggin on the white dots can reposition some weapon mods, such as moving optics forward or backward on a rail.  
 - When in the weapon modding UI hovering the mouse over a part will show a tooltip of what stats will change if the part is added.  
 - When inspecting ammo the UI will show additional, previously hidden, attributes.  
-
-### Hideout:
+  
+### Hideout:  
 - A Transfer Items button is added to hideout modules that will contribute items in stash to that construction module.  
 - Add some recipes to the hideout, remove other (like arena crates).  
 - Air filter, water filter, and fuel consumption all reduced.  
@@ -109,8 +143,8 @@ This will allow other players to join the raids you start.
 - Scav Case and Cultist Circle timers reduced.  
 - Stash sizes are increased.  
 - Workout QTE has been made easier.  
-
-### Traders:
+  
+### Traders:  
 - A skip option can been added to trader quest UI to skip arduous quest requirements.  
 - Clothing apparel from all faction is available to be purchased by all factions.  
 - Clothing apparel purchase requirements removed (except for money).  
@@ -124,20 +158,20 @@ This will allow other players to join the raids you start.
 - Returned insurance is held by insurer for a much longer time.  
 - Tasks have expanded text to give more info about the task.  
 - The task list has several improvements to sorting and performance.  
-
-### Loot:
+  
+### Loot:  
 - Airdrops frequency and contents increased.  
 - Overall amount of loot increased.  
-
-### Players:
+  
+### Players:  
 - 10 new skills have been added, including lockpicking.  
 - Max health, energy, and hydration increased.  
 - Skill fatigue functionally eliminated.  
 - Skill progression sped up.  
 - Stamina and stamina regen increased.  
 - XP gain increased.  
-
-### Raids:
+  
+### Raids:  
 - A ballistic arc it shown when prepping to throw a grenade , much like ACE's Advanced Throwing in Arma.  
 - AI armour and weapon minimum durability increased.  
 - Add RUAF bot faction. Patrolling squads of 2 to 8 Russian soldiers will shoot USEC on sight.  
@@ -175,8 +209,8 @@ This will allow other players to join the raids you start.
 - Some items, such as fuel containers will automatically change weight depending on how full they are.  
 - Time to plant markers, cameras, etc reduced significantly.  
 - Transit Inventory size increased.  
-
-### Flea Market:
+  
+### Flea Market:  
 - Accessible at level 1.  
 - Purchased items are considered found-in-raid.  
 - Non-found-in-raid items may be sold.  
